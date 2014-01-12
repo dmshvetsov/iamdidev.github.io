@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>shvetsovdm{% if page.title %} / {{ page.title }}{% endif %}</title>
+  <link rel="stylesheet" href="/assets/css/reset.css">
+  <link href='http://fonts.googleapis.com/css?family=Tinos|Roboto+Slab:700,400,300&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="/assets/css/layout.css">
+</head>
+<body>
+  <div class="header">
+    <div class="header-content">
+      <div class="site-img">
+        <!-- avatar is here -->
+      </div>
+      <div class="site-title">
+        <div class="main-title">Швецов Дмитрий</div>
+        <div class="minor-title">shvetsovdm</div>
+      </div>
+      <ul class="nav">
+        <li class="nav-item"><a href="/">Блог</a></li>
+        <li class="nav-item"><a href="/contacts.html">Контакты</a></li>
+        <li class="nav-item"><a href="https://github.com/shvetsovdm">Github</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="content">
+    {{ content }}
+  </div>
+</body>
+</html>

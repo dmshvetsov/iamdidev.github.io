@@ -1,4 +1,4 @@
 shvetsovdm.github.io
 ====================
 
-my own web site
+my own website

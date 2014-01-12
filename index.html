@@ -1,9 +1,20 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <title>shvetsovdm</title>
-</head>
-<body>
-  <p>One, two. Test, test, hello World!</p>
-</body>
-</html>
+---
+layout: default
+---
+
+<h1>Здравствуйте,</h1>
+<div class="post-excerpt">
+  меня зовут Дмитрий и я интересуюсь программированием, вэб разработкой, вэб дизайном, мобильными приложениями и разработкой игр. Здесь вы найдете мои наблюдени, мысли и идеи на интересующие меня темы, верю что вам тоже будет интересно. Приятного чтения.
+</div>
+
+<h2>Блог</h2>
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <span>
+        {{ post.date | date_to_string }}
+      </span> &raquo;
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+</ul>

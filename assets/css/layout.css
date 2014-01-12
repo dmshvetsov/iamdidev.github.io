@@ -1,0 +1,122 @@
+body {
+  background: #FAFAFA;
+  font: normal 100 14px/18px Helvetica;
+  color: #707070;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+blockquote,
+.post-excerpt,
+.post-date {
+  margin-bottom: 18px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Roboto Slab', serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  line-height: 1em;
+  color: #1C1C1C;
+}
+h1 {
+  font-size: 4.3em;
+  margin-top: 18px;
+}
+h2 {
+  font-size: 2.6em;
+}
+h3 {
+  font-size: 1.6em;
+}
+h4, h5, h6 {
+  font-size: 1em;
+}
+h5 {
+  font-weight: 400;
+  color: #2C2C2C;
+}
+h6 {
+  font-weight: 300;
+  color: #4C4C4C;
+}
+p {
+
+}
+a {
+  color: #d5444b;
+}
+  a:hover {
+    color: #A6353A;
+  }
+blockquote, q {
+  font-family: 'Tinos', serif;
+  color: #1C1C1C;
+}
+.header {
+  height: 90px;
+  margin-top: 18px;
+  padding-bottom: 18px;
+  border-bottom: 1px solid #EEEEEE;
+}
+.header-content,
+.content {
+  width: 960px;
+  margin: 0 auto;
+}
+.site-title,
+.nav {
+  line-height: 90px;
+}
+.site-img {
+  width: 72px;
+  height: 72px;
+  border-radius: 46px;
+  -webkit-border-radius: 46px;
+  -moz-border-radius: 46px;
+  background: url('../img/shvetsovdm.jpg') no-repeat;
+  border: 1px solid #ffffff;
+  margin: 8px 16px 8px 0px;
+  float: left;
+}
+.site-title {
+  width: 310px;
+  padding-top: 27px;
+  float: left;
+}
+.main-title {
+  font: normal 700 16px/18px Helvetica;
+  color: #1C1C1C;
+}
+.minor-title {
+  line-height: 1em;
+  color: #BBBBBB;
+}
+.nav {
+  list-style: none;
+  float: right;
+}
+.nav-item {
+  margin-left: 25px;
+  float: left;
+  text-align: right;
+}
+.post-date {
+  margin-top: -18px;
+  color: #BBBBBB;
+}
+.post-excerpt {
+  font: normal 100 1.6em/1.2em Helvetica;
+  color: #1C1C1C;
+  margin-left: 90px;
+  margin-right: 90px;
+}
