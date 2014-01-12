@@ -72,6 +72,7 @@ blockquote, q {
 .content {
   width: 960px;
   margin: 0 auto;
+  padding: 0 18px;
 }
 .site-title,
 .nav {
@@ -106,7 +107,7 @@ blockquote, q {
   float: right;
 }
 .nav-item {
-  margin-left: 25px;
+  margin-left: 18px;
   float: left;
   text-align: right;
 }
