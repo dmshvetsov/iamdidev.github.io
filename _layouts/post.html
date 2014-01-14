@@ -19,19 +19,44 @@ layout: default
 <script type="text/javascript" src="http://zor.livefyre.com/wjs/v3.0/javascripts/livefyre.js"></script>
 <script type="text/javascript">
 (function () {
-    var articleId = fyre.conv.load.makeArticleId(null);
-    fyre.conv.load({}, [{
-        el: 'livefyre-comments',
-        network: "livefyre.com",
-        siteId: "351387",
-        articleId: articleId,
-        signed: false,
-        collectionMeta: {
-            articleId: articleId,
-            url: fyre.conv.load.makeCollectionUrl(),
-        }
-    }], function() {});
+  var customStrings = {
+      postAsButton: "Добавить",
+      postEditButton: "Редактировать",
+      signIn: "",
+      signInGuest: "добавить комментарий как гость",
+      pendingComment: "Ожидание",
+      postEditCancelButton: "Отменить",
+      commentCountLabel: "комментарий",
+      commentCountLabelPlural: "комментариев",
+      listenerCountLabel: "слушает",
+      listenerCountLabelPlural: "слушают",
+      likeButton: "нравиться",
+      unlikeButton: "не нравиться",
+      editButton: "Изменить",
+      replyButton: "Ответить",
+      follow: "Следовать",
+      unfollow: "Не следовать",
+      banUserButton: "Запретить",
+      deleteButton: "Удалить",
+      flagButton: "Пометить",
+      shareButton: "Поделиться",
+      sortNewest: "Новые",
+      sortOldest: "Старые",
+      sortSeparator: " "
+  };
+  var articleId = fyre.conv.load.makeArticleId(null);
+  fyre.conv.load({}, [{
+      el: 'livefyre-comments',
+      network: "livefyre.com",
+      siteId: "351387",
+      articleId: articleId,
+      signed: false,
+      collectionMeta: {
+          articleId: articleId,
+          url: fyre.conv.load.makeCollectionUrl(),
+      }
+  }], function() {});
 }());
 </script>
 <!-- END: Livefyre Embed -->
-            
+              
