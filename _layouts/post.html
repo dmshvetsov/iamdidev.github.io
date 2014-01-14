@@ -19,7 +19,7 @@ layout: default
 <script type="text/javascript" src="http://zor.livefyre.com/wjs/v3.0/javascripts/livefyre.js"></script>
 <script type="text/javascript">
 (function () {
-  var customStrings = {
+  var ruStrings = {
       postAsButton: "Добавить",
       postEditButton: "Редактировать",
       signIn: "",
@@ -45,7 +45,7 @@ layout: default
       sortSeparator: " "
   };
   var articleId = fyre.conv.load.makeArticleId(null);
-  fyre.conv.load({}, [{
+  fyre.conv.load({'strings': ruStrings}, [{
       el: 'livefyre-comments',
       network: "livefyre.com",
       siteId: "351387",
