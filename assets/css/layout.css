@@ -125,10 +125,15 @@ blockquote, q {
 .highlight {
   border-top: 1px solid #EEEEEE;
   border-bottom: 1px solid #EEEEEE;
-  overflow-x: visible;
-  overflow-y: auto;
   width: 780px;
   margin-left: 90px;
   margin-right: 90px;
-  padding: 18px;
+  padding: 9px 0px;
+}
+pre {
+ white-space: pre-wrap;
+ white-space: -moz-pre-wrap;
+ white-space: -pre-wrap;
+ white-space: -o-pre-wrap;
+ word-wrap: break-word;
 }
