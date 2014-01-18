@@ -12,7 +12,7 @@ layout: default
   {% for post in site.posts %}
     <li>
       <span>
-        {{ post.date | date_to_string }}
+        {{ post.date | date:"%d %B %Y г." | replace: "January","Января" }}
       </span> &raquo;
       <a href="{{ post.url }}">{{ post.title }}</a>
     </li>
