@@ -1,3 +1,4 @@
 name: NOC
 markdown: redcarpet
 pygments: true
+baseurl: http://shvetsovdm.github.io
