@@ -1,4 +1,5 @@
 ---
+permalink: /contacts/
 layout: page
 title: Контакты
 ---

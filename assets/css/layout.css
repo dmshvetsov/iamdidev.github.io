@@ -108,11 +108,12 @@ blockquote, q {
   list-style: none;
   float: right;
 }
-.nav-item {
-  margin-left: 18px;
-  float: left;
-  text-align: right;
-}
+  .nav li {
+    position: relative;
+    margin-left: 18px;
+    float: left;
+    text-align: right;
+  }
 .post-date {
   margin-top: -18px;
   color: #BBBBBB;

@@ -1,4 +1,5 @@
 ---
+permalink: /theme/
 layout: page
 title: Элементы дизайна сайта
 sitemap:
