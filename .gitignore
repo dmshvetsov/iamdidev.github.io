@@ -15,7 +15,19 @@ coverage
 .sass-cache
 assets/highlightjs/
 
+# npm
+node_modules
+
 # vim tmp files
 *.swp
 
+# logs
+*.log
+
 # hexo
+Thumbs.db
+db.json
+debug.log
+node_modules/
+public/
+.deploy/
