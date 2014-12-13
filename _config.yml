@@ -88,4 +88,4 @@ exclude_generator:
 deploy:
   type: github
   repo: git@github.com:shvetsovdm/shvetsovdm.github.io.git
-  branch: pages
+  branch: master
