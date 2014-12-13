@@ -14,3 +14,8 @@ coverage
 .ruby-version
 .sass-cache
 assets/highlightjs/
+
+# vim tmp files
+*.swp
+
+# hexo

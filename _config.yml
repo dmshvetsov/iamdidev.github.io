@@ -1,7 +1,0 @@
-url:                http://shvetsovdm.github.io
-
-permalink:          '/blog/:year/:title/'
-paginate_path:      '/blog/page:num/'
-
-include: ['_pages']
-relative_permalinks: false

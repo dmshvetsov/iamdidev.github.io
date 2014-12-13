@@ -1,6 +1,0 @@
-.highlight-block                        { line-height: 18px; }
-.highlight-marked                       { background: url('images/middle.png') repeat-x; position: relative; z-index: -1; display: inline-block; }
-.highlight-marked .left-corner          { background: url('images/left-corner.png') no-repeat; position: absolute; top: -1px; left: -4px; height: 16px; width: 4px; }
-.highlight-marked .right-corner         { background: url('images/right-corner.png') no-repeat; position: absolute; top: 0px; right: -3px; height: 15px; width: 3px; }
-
-.resized                                { width: 65%; margin: 0 auto; }
