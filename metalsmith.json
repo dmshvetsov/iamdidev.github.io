@@ -1,0 +1,23 @@
+{
+  "source": "pages",
+  "destination": "build",
+
+  "metadata": {
+    "title": "shvetsovdm",
+    "description": "Personal site of Dmitry Shvetsov."
+  },
+
+  "plugins": {
+    "metalsmith-markdown": {},
+    "metalsmith-permalinks": {
+      "pattern": ":title"
+    },
+    "metalsmith-templates": {
+      "engine": "handlebars"
+    },
+    "metalsmith-assets": {
+      "source": "assets",
+      "destination": "assets"
+    }
+  }
+}

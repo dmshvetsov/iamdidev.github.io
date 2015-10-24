@@ -1,12 +1,28 @@
 {
   "name": "shvetsovdm.github.io",
-  "version": "2.8.3",
-  "private": true,
+  "version": "0.2.0",
+  "description": "Personal web site",
+  "main": "build.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shvetsovdm/shvetsovdm.github.io.git"
+  },
+  "author": "shvetsovdm",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shvetsovdm/shvetsovdm.github.io/issues"
+  },
+  "homepage": "https://github.com/shvetsovdm/shvetsovdm.github.io#readme",
   "dependencies": {
-    "hexo-renderer-ejs": "*",
-    "hexo-renderer-stylus": "*",
-    "hexo-renderer-marked": "*",
-    "hexo-renderer-jade": "*",
-    "hexo-renderer-less": "*"
+    "handlebars": "4.0.3",
+    "metalsmith": "2.1.0",
+    "metalsmith-assets": "^0.1.0",
+    "metalsmith-layouts": "1.4.2",
+    "metalsmith-markdown": "0.2.1",
+    "metalsmith-permalinks": "0.4.0",
+    "metalsmith-serve": "0.0.4"
   }
 }
