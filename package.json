@@ -1,0 +1,20 @@
+{
+  "name": "shvetsovdm.github.io",
+  "version": "2.0.0",
+  "description": "Personal web site",
+  "main": "na",
+  "scripts": {
+    "start": "node_modules/.bin/webpack --config webpack.config.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shvetsovdm/shvetsovdm.github.io.git"
+  },
+  "author": "Dmitry Shvetsov <shvetsovdm@gmail.com>",
+  "license": "UNLICENSED",
+  "homepage": "https://github.com/shvetsovdm/shvetsovdm.github.io",
+  "devDependencies": {
+    "webpack": "2.2.1"
+  }
+}
