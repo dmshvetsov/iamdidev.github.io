@@ -4,7 +4,9 @@
   "description": "Personal web site",
   "main": "na",
   "scripts": {
-    "start": "node_modules/.bin/webpack --config webpack.config.js",
+    "start": "node_modules/serve/bin/serve.js",
+    "build": "node_modules/.bin/webpack --config webpack.config.js",
+    "watch": "node_modules/.bin/webpack --config webpack.config.js --watch --progress",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,6 +17,16 @@
   "license": "UNLICENSED",
   "homepage": "https://github.com/shvetsovdm/shvetsovdm.github.io",
   "devDependencies": {
+    "css-loader": "0.26.1",
+    "extract-text-webpack-plugin": "^2.0.0-rc.3",
+    "file-loader": "^0.10.0",
+    "node-sass": "4.5.0",
+    "resolve-url-loader": "1.6.1",
+    "sass-loader": "6.0.0",
+    "serve": "3.3.1",
     "webpack": "2.2.1"
+  },
+  "depandencies": {
+    "gutenberg-web-type": "1.2.3"
   }
 }
