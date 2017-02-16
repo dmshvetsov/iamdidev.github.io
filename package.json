@@ -7,6 +7,7 @@
     "start": "node_modules/serve/bin/serve.js",
     "build": "node_modules/.bin/webpack --config webpack.config.js",
     "watch": "node_modules/.bin/webpack --config webpack.config.js --watch --progress",
+    "publish": "node_modules/.bin/webpack --config webpack.config.js --env.production",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

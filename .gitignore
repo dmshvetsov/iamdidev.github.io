@@ -4,6 +4,3 @@ npm-debug.log
 
 # Sys. files
 .DS_Store
-
-# Webpack
-assets/*
