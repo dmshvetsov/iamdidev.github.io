@@ -1,2 +1,6 @@
-# User-agent: *
-# Disallow: /
+User-agent: *
+Disallow: /package.json
+Disallow: /webpack.config.json
+Disallow: /assets/
+Disallow: /images/
+Disallow: /src/
