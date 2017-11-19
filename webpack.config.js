@@ -25,5 +25,8 @@ module.exports = {
 
     plugins: [
         new ExtractTextPlugin('style.css'),
-    ]
+    ],
+    devServer: {
+        publicPath: '/assets/'
+    }
 };
