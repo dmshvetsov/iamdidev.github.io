@@ -1,13 +1,11 @@
 {
   "name": "shvetsovdm.github.io",
-  "version": "2.2.1",
+  "version": "2.3.1",
   "description": "Personal web site",
   "main": "na",
   "scripts": {
-    "start:dev": "webpack-dev-server",
-    "build": "webpack --config webpack.config.js",
-    "watch": "webpack --config webpack.config.js --watch --progress",
-    "publish": "webpack --config webpack.config.js -p",
+    "start:dev": "webpack-dev-server --config webpack/dev.config.js",
+    "publish": "webpack --config webpack/prod.config.js -p",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -21,11 +19,12 @@
     "css-loader": "0.26.1",
     "extract-text-webpack-plugin": "^2.0.0-rc.3",
     "file-loader": "^0.10.0",
+    "gutenberg-web-type": "1.2.3",
     "node-sass": "4.5.0",
     "resolve-url-loader": "1.6.1",
     "sass-loader": "6.0.0",
     "webpack": "2.2.1",
     "webpack-dev-server": "2.9.4",
-    "gutenberg-web-type": "1.2.3"
+    "webpack-merge": "^4.1.1"
   }
 }

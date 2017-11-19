@@ -1,12 +1,12 @@
-var path = require('path'),
-    ExtractTextPlugin = require('extract-text-webpack-plugin');
+const path = require('path');
+const ExtractTextPlugin = require('extract-text-webpack-plugin');
 
 module.exports = {
     devtool: 'cheap-eval-source-map',
     entry: ['./src/main.js', './src/main.sass'],
     output: {
         filename: 'bundle.js',
-        path: path.resolve(__dirname, 'assets')
+        path: path.resolve(__dirname, '../assets')
     },
     module: {
         rules: [
@@ -24,9 +24,6 @@ module.exports = {
     },
 
     plugins: [
-        new ExtractTextPlugin('style.css'),
-    ],
-    devServer: {
-        publicPath: '/assets/'
-    }
+        new ExtractTextPlugin('bundle.css'),
+    ]
 };
