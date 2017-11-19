@@ -1,13 +1,13 @@
 {
   "name": "shvetsovdm.github.io",
-  "version": "2.2.0",
+  "version": "2.2.1",
   "description": "Personal web site",
   "main": "na",
   "scripts": {
     "start:dev": "webpack-dev-server",
     "build": "webpack --config webpack.config.js",
     "watch": "webpack --config webpack.config.js --watch --progress",
-    "publish": "webpack --config webpack.config.js --env.production",
+    "publish": "webpack --config webpack.config.js -p",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
