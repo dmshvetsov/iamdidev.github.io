@@ -1,11 +1,12 @@
 const path = require('path');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
     devtool: 'cheap-eval-source-map',
     entry: ['./src/main.js', './src/main.sass'],
     output: {
-        filename: 'bundle.js',
+        filename: '[name].[chunkhash].js',
         path: path.resolve(__dirname, '../assets')
     },
     module: {
@@ -25,5 +26,6 @@ module.exports = {
 
     plugins: [
         new ExtractTextPlugin('bundle.css'),
+        new HtmlWebpackPlugin({ template: 'src/index.template.html' }),
     ]
 };
