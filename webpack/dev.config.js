@@ -3,6 +3,8 @@ const baseConfig = require('./base.config.js');
 
 module.exports = merge(baseConfig, {
     devServer: {
-        publicPath: '/assets/'
+        publicPath: '/assets/',
+        overlay: true,
+        watchContentBase: true
     }
 });
