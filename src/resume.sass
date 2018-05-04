@@ -1,0 +1,80 @@
+$color-weak: #b3b6b9
+
+body
+  padding-top: 1rem
+  font-size: 16px
+  font-family: "Helvetica Neue", Helvetica, sans-serif
+  color: #6d7276
+
+.sdm-resume
+  width: 840px
+  margin: 0 auto
+  &--header
+    margin-bottom: 4rem
+  &--content
+    display: flex
+    justify-content: space-between
+  &--footer
+    margin-top: 6rem
+
+.sdm-resume-column
+  width: 370px
+  display: flex
+  flex-direction: column
+  justify-content: space-between
+
+.sdm-resume-title
+  margin: 0 0 2rem 0
+
+.sdm-resume-block
+  &--timeframe
+    color: $color-weak
+    padding: 0.5rem 0
+
+.sdm-lead
+  font-size: 1.5rem
+
+.sdm-resume-skills
+  position: relative
+  bottom: 1.5rem
+
+.sdm-resume-list
+  margin: 0
+  padding: 0
+  list-style: none
+  li::before
+    content: "\25AA"
+    color: $color-weak
+    padding: 0 12px 0 6px
+
+.sdm-resume-contact
+  color: $color-weak
+  font-weight: normal
+  margin-right: 1rem
+  &--icon
+    width: 18px
+    height: 18px
+    vertical-align: text-top
+    fill: $color-weak
+
+a
+  color: #1b4766
+  font-weight: bold
+
+h1, h2, h3
+  color: #0e283d
+
+h1
+  font-size: 1.25rem
+  margin-bottom: 0.33rem
+
+h2
+  font-size: 1.2rem
+  margin: 0 0 1.5rem 0
+
+h3
+  font-size: 1rem
+  margin-bottom: 0.5rem
+
+p
+  margin: 0
