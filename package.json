@@ -19,7 +19,6 @@
     "css-loader": "0.26.1",
     "extract-text-webpack-plugin": "^2.0.0-rc.3",
     "file-loader": "^0.10.0",
-    "gutenberg-web-type": "1.2.3",
     "node-sass": "4.5.0",
     "resolve-url-loader": "1.6.1",
     "sass-loader": "6.0.0",

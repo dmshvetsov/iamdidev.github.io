@@ -1,18 +1,74 @@
-@import '~gutenberg-web-type/src/style/gutenberg';
+$color-bg: #EDF2F4
+$color-text_normal: #2B2D42
+$color-text_alt: #8D99AE
+$color-text_accent: #EF233C
+$color-link: #D90429
+$font-size: 2vw
+$font-size_sm: 24px
 
-$color-text_normal: #444
-$color-text_accent: #222
+html, body
+  color: $color-text_normal
+  font-size: $font-size_sm
+  font-family: helvetica, sans-serif
+  line-height: 1.4rem
+  font-weight: normal
 
 body
+  background-color: $color-bg
+
+a
   color: $color-text_normal
+  text-decoration: none
+  border-bottom: 3px solid $color-link
+  transition: background-color 0.2s
+  &:hover
+    background-color: hsla(352.6,86.4%,53.7%, 0.5)
+  &:active
+    background-color: hsla(352.6,86.4%,53.7%, 0.7)
 
-h1, h2, h3
+h1, h2
   color: $color-text_accent
-
-.sdm-avatar
-  width: 100px
-  height: 100px
-  border-radius: 100%
+  font-size: $font-size_sm
+  font-weight: normal
 
 ul, ol
-  list-style: square
+  list-style: none
+  margin: 0
+  padding: 0
+
+.sdm-layout
+  width: 100vw
+  display: flex
+  flex-wrap: wrap
+  justify-content: center
+  &__block
+    padding: 0.5rem
+    width: 90vw
+    &--footer
+      color: $color-text_alt
+
+.sdm-article
+  margin-bottom: 1rem
+  &__date
+    margin-top: 0.25rem
+    font-size: 0.75rem
+    color: $color-text_alt
+
+@media screen and (min-width: 701px)
+  html, body, h1, h2
+    font-size: $font-size
+
+  .sdm-layout
+    justify-content: flex-start
+    &__block
+      flex-basis: 45vw
+      &--footer
+        flex-basis: 45vw
+        align-self: flex-start
+
+@media screen and (min-width: 1025px)
+  .sdm-layout
+    &__block
+      flex-basis: 30vw
+      &--footer
+        flex-basis: 100vw
