@@ -1,7 +1,7 @@
 @import './base'
 
 .sdm-resume
-  font-size: 18px
+  font-size: 0.75rem
   line-height: 1rem
   padding: 1rem
   width: 100%
@@ -62,7 +62,7 @@ p
 section
   margin-bottom: 4rem
 
-@media (min-width: 841px)
+@media screen and (min-width: 841px)
   .sdm-resume
     width: 840px
     padding: 0
@@ -85,3 +85,30 @@ section
 
   .sdm-resume-contact
     margin: 0 1rem 0 0
+
+@media print
+  html, body
+    font-size: 20px
+
+  .sdm-resume
+    width: 100vw
+    &--content
+      display: flex
+      justify-content: space-between
+    &--footer
+      display: block
+
+  .sdm-resume-column
+    width: 48%
+    display: block
+
+  .sdm-resume-contact
+    margin: 0 .5rem 0 0
+
+  .sdm-resume-skills
+
+  .sdm-hide-on-print
+    display: none
+
+  a
+    border: none
