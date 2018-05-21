@@ -1,42 +1,29 @@
-$color-weak: #b3b6b9
-
-body
-  padding-top: 1rem
-  font-size: 16px
-  font-family: "Helvetica Neue", Helvetica, sans-serif
-  color: #6d7276
+@import './base'
 
 .sdm-resume
-  width: 840px
-  margin: 0 auto
+  font-size: 18px
+  line-height: 1rem
+  padding: 1rem
+  width: 100%
   &--header
     margin-bottom: 4rem
-  &--content
-    display: flex
-    justify-content: space-between
   &--footer
-    margin-top: 6rem
-
-.sdm-resume-column
-  width: 370px
-  display: flex
-  flex-direction: column
-  justify-content: space-between
+    display: flex
+    flex-direction: column
+    align-items: flex-start
 
 .sdm-resume-title
   margin: 0 0 2rem 0
 
 .sdm-resume-block
+  margin-bottom: 1rem
   &--timeframe
-    color: $color-weak
+    color: $color-text_alt
     padding: 0.5rem 0
 
 .sdm-lead
   font-size: 1.5rem
-
-.sdm-resume-skills
-  position: relative
-  bottom: 1.5rem
+  line-height: 1.6rem
 
 .sdm-resume-list
   margin: 0
@@ -44,37 +31,57 @@ body
   list-style: none
   li::before
     content: "\25AA"
-    color: $color-weak
+    color: $color-text_alt
     padding: 0 12px 0 6px
 
 .sdm-resume-contact
-  color: $color-weak
+  color: $color-text_alt
+  border-color: currentColor
   font-weight: normal
-  margin-right: 1rem
+  margin-bottom: 0.25rem
+  &:before
+    background-color: currentColor
   &--icon
     width: 18px
     height: 18px
     vertical-align: text-top
-    fill: $color-weak
-
-a
-  color: #1b4766
-  font-weight: bold
-
-h1, h2, h3
-  color: #0e283d
+    fill: $color-text_alt
 
 h1
-  font-size: 1.25rem
   margin-bottom: 0.33rem
 
 h2
-  font-size: 1.2rem
   margin: 0 0 1.5rem 0
 
 h3
-  font-size: 1rem
   margin-bottom: 0.5rem
 
 p
   margin: 0
+
+section
+  margin-bottom: 4rem
+
+@media (min-width: 841px)
+  .sdm-resume
+    width: 840px
+    padding: 0
+    margin: 0 auto
+    &--content
+      display: flex
+      justify-content: space-between
+    &--footer
+      display: block
+
+  .sdm-resume-column
+    width: 370px
+    display: flex
+    flex-direction: column
+    justify-content: space-between
+
+  .sdm-resume-skills
+    position: relative
+    bottom: 3rem
+
+  .sdm-resume-contact
+    margin: 0 1rem 0 0
