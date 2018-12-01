@@ -1,0 +1,70 @@
+// color palette https://coolors.co/2b2d42-8d99ae-edf2f4-ef233c-d90429
+
+$color-bg: #F9FBFB
+$color-bg_acent: #EDF2F4
+$color-text_normal: #2B2D42
+$color-text_alt: #8D99AE
+$color-text_accent: #EF233C
+$color-link: #D90429
+$font-size: 2vw
+$font-size_sm: 24px
+$line-height: 1.4rem
+
+*
+  box-sizing: border-box
+  margin: 0
+  padding: 0
+
+html, body
+  color: $color-text_normal
+  font-size: $font-size_sm
+  font-family: helvetica, sans-serif
+  line-height: $line-height
+  font-weight: normal
+
+p
+  margin-bottom: 1rem
+
+body
+  padding-top: 1rem
+  padding-bottom: 1rem
+  background-color: $color-bg
+
+a
+  position: relative
+  color: $color-text_normal
+  text-decoration: none
+  border-bottom: 3px solid $color-link
+  &::before
+    content: ''
+    position: absolute
+    top: 0
+    left: 0
+    width: 100%
+    height: 100%
+    background-color: hsl(352.6,86.4%,53.7%)
+    transition: opacity 0.2s
+    opacity: 0
+    z-index: -1
+  &:hover::before
+    opacity: 0.5
+  &:active::before
+    opacity: 0.7
+
+.sdm-multiline-link
+  transition: background-color 0.2s
+  &::before
+    content: none
+  &:hover
+    background-color: hsla(352.6,86.4%,53.7%, 0.5)
+  &:active
+    background-color: hsla(352.6,86.4%,53.7%, 0.7)
+
+h1, h2, h3
+  font-size: $font-size_sm
+  font-weight: normal
+  margin-bottom: 1rem
+
+.sdm-accent
+  color: $color-text_accent
+

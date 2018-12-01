@@ -1,28 +1,44 @@
 {
   "name": "shvetsovdm.github.io",
-  "version": "0.2.0",
   "description": "Personal web site",
-  "main": "build.js",
-  "scripts": {
-    "test": "test"
+  "version": "4.0.0",
+  "author": "Dmitry Shvetsov <shvetsovdm@gmail.com>",
+  "dependencies": {
+    "gatsby": "^2.0.53",
+    "gatsby-image": "^2.0.20",
+    "gatsby-plugin-manifest": "^2.0.9",
+    "gatsby-plugin-offline": "^2.0.16",
+    "gatsby-plugin-react-helmet": "^3.0.2",
+    "gatsby-plugin-sass": "^2.0.5",
+    "gatsby-plugin-sharp": "^2.0.12",
+    "gatsby-source-filesystem": "^2.0.8",
+    "gatsby-transformer-sharp": "^2.1.8",
+    "node-sass": "^4.10.0",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3",
+    "react-helmet": "^5.2.0"
   },
+  "keywords": [
+    "personal web site"
+  ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/shvetsovdm/shvetsovdm.github.io.git"
+    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
   },
-  "author": "shvetsovdm",
+  "homepage": "https://github.com/shvetsovdm/shvetsovdm.github.io",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/shvetsovdm/shvetsovdm.github.io/issues"
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "start": "npm run develop",
+    "format": "prettier --write \"src/**/*.js\"",
+    "deploy": "gatsby build && gh-pages -d public -b master",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "homepage": "https://github.com/shvetsovdm/shvetsovdm.github.io#readme",
-  "dependencies": {
-    "handlebars": "4.0.3",
-    "metalsmith": "2.1.0",
-    "metalsmith-assets": "^0.1.0",
-    "metalsmith-layouts": "1.4.2",
-    "metalsmith-markdown": "0.2.1",
-    "metalsmith-permalinks": "0.4.0",
-    "metalsmith-serve": "0.0.4"
+  "devDependencies": {
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.9.0",
+    "eslint-plugin-react": "^7.11.1",
+    "prettier": "^1.15.2"
   }
 }
