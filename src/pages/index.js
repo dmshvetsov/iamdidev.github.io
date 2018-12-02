@@ -6,9 +6,10 @@ const IndexPage = () => (
   <Layout>
     <section className="sdm-layout__block">
       <h1>I am <span className="sdm-accent">Dmitry</span></h1>
-      <p>A web developer from Vladivostok, Russia.</p>
-      <p>You can find me on internet as @shvetsovdm, writing articles and posting tweets about web development, Ruby, SQL, NoSQL, JavaScript, Node.js, VIM editor and<br/>programming in general.</p>
-      <p><Link to="/dmitry-shvetsov-resume">My resume</Link></p>
+      <p>A <span className="sdm-accent">web developer</span> from Vladivostok, Russia.</p>
+      <p>The <span className="sdm-accent">оrganaizer</span> of the <a href="https://www.instagram.com/explore/tags/rubyvladivostok/?hl=en">Ruby Vladivostok</a> meetup.</p>
+      <p>You can find me on internet as <span className="sdm-accent">@shvetsovdm</span>, writing articles and posting tweets about web development, Ruby, SQL, NoSQL, JavaScript, Node.js, VIM editor and programming in general.</p>
+      <p>Looking for my <span className="sdm-accent">resume</span>? It&#39;s <Link to="/dmitry-shvetsov-resume">here</Link>.</p>
     </section>
     <section className="sdm-layout__block">
       <h2>My recent <span className="sdm-accent">articles</span></h2>
