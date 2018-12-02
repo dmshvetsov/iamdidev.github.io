@@ -1,5 +1,6 @@
 import React from 'react';
 import Layout from '../components/layout';
+import { Link } from 'gatsby';
 
 const IndexPage = () => (
   <Layout>
@@ -7,7 +8,7 @@ const IndexPage = () => (
       <h1>I am <span className="sdm-accent">Dmitry</span></h1>
       <p>A web developer from Vladivostok, Russia.</p>
       <p>You can find me on internet as @shvetsovdm, writing articles and posting tweets about web development, Ruby, SQL, NoSQL, JavaScript, Node.js, VIM editor and<br/>programming in general.</p>
-      <p><a href="/dmitry-shvetsov-resume">My resume</a></p>
+      <p><Link to="/dmitry-shvetsov-resume">My resume</Link></p>
     </section>
     <section className="sdm-layout__block">
       <h2>My recent <span className="sdm-accent">articles</span></h2>
