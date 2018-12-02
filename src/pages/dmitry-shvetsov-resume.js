@@ -13,35 +13,35 @@ const Resume = () => (
     <main className="sdm-resume--content">
       <div className="sdm-resume-column">
         <section>
-          <h2 className="sdm-accent">Experience</h2>
+          <h2 className="sdm-accent sdm-resume-h2">Experience</h2>
           <div className="sdm-resume-block">
-            <h3>Lead developer</h3>
-            <p><a rel="external" href="https://farpostdevelopment.ru">Farpost Development</a> – Develop Rails applications. Introduced the process of TDD, code review, automated deployment.</p>
+            <h3 className="sdm-resume-h3">Lead developer</h3>
+            <p className="sdm-resume-p"><a rel="external" href="https://farpostdevelopment.ru">Farpost Development</a> – Develop Rails applications. Introduced the process of TDD, code review, automated deployment.</p>
             <div className="sdm-resume-block--timeframe">Dec 2013 – Present</div>
           </div>
           <div className="sdm-resume-block">
-            <h3>Back end developer</h3>
-            <p><a rel="external" href="http://hifromlink.com">Link. (Hong Kong, remote)</a> – Develop an RPC API for an SPA client with Node.js, MongoDB, Docker. Launch project in production.</p>
+            <h3 className="sdm-resume-h3">Back end developer</h3>
+            <p className="sdm-resume-p"><a rel="external" href="http://hifromlink.com">Link. (Hong Kong, remote)</a> – Develop an RPC API for an SPA client with Node.js, MongoDB, Docker. Launch project in production.</p>
             <div className="sdm-resume-block--timeframe">Mar 2017 – Present</div>
           </div>
           <div className="sdm-resume-block">
-            <h3>Full stack web developer</h3>
-            <p><span>Wireprize (Hong Kong, remote)</span> – Develop a mobile gaming platform with Node.js, MongoHQ.</p>
+            <h3 className="sdm-resume-h3">Full stack web developer</h3>
+            <p className="sdm-resume-p"><span>Wireprize (Hong Kong, remote)</span> – Develop a mobile gaming platform with Node.js, MongoHQ.</p>
             <div className="sdm-resume-block--timeframe">Sep 2013 – Jul 2014</div>
           </div>
         </section>
       </div>
       <div className="sdm-resume-column">
         <section>
-          <h2 className="sdm-accent">Education</h2>
+          <h2 className="sdm-accent sdm-resume-h2">Education</h2>
           <div className="sdm-resume-block">
-            <h3>BA Computer Science & Economics</h3>
-            <p><a rel="external" href="https://www.s-vfu.ru/en">North-Eastern Federal University</a></p>
+            <h3 className="sdm-resume-h3">BA Computer Science &amp; Economics</h3>
+            <p className="sdm-resume-p"><a rel="external" href="https://www.s-vfu.ru/en">North-Eastern Federal University</a></p>
             <div className="sdm-resume-block--timeframe">Sep 2002 – Jun 2007</div>
           </div>
         </section>
         <section className="sdm-resume-skills">
-          <h2 className="sdm-accent">Core skills</h2>
+          <h2 className="sdm-accent sdm-resume-h2">Core skills</h2>
           <ul className="sdm-resume-list">
             <li>Ruby / Rails</li>
             <li>Node.JS / ExpressJS</li>
@@ -73,7 +73,6 @@ const Resume = () => (
         twitter
       </a>
     </footer>
-
   </div>
 );
 
