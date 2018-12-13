@@ -1,7 +1,9 @@
 module.exports = {
   siteMetadata: {
     title: 'Dmitry Shvetsov, Fullstack Developer',
-    description: 'Full stack web developer. I use with love Ruby, Node.js, JavaScript, SQL, NoSQL databases. Based in Vladivostok, Russia.'
+    description: 'Full stack web developer. I use with love Ruby, Node.js, JavaScript, SQL, NoSQL databases. Based in Vladivostok, Russia.',
+    host: 'https://shvetsovdm.github.io/',
+    gravatar: 'https://www.gravatar.com/avatar/b8c8cd15abf09e505baec08c61a054a7'
   },
   plugins: [
     'gatsby-plugin-react-helmet',

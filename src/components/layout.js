@@ -12,7 +12,9 @@ const Layout = ({ children }) => (
         site {
           siteMetadata {
             title,
-            description
+            description,
+            host,
+            gravatar
           }
         }
       }
@@ -23,7 +25,11 @@ const Layout = ({ children }) => (
           title={data.site.siteMetadata.title}
           meta={[
             { name: 'description', content: data.site.siteMetadata.description },
-            { name: 'author', content: 'Dmitry Shvetsov' }
+            { name: 'author', content: 'Dmitry Shvetsov' },
+            { name: 'og:title', content: data.site.siteMetadata.title },
+            { name: 'og:url', content: data.site.siteMetadata.host },
+            { name: 'og:description', content: data.site.siteMetadata.description },
+            { name: 'og:image', content: data.site.siteMetadata.gravatar },
           ]}
         >
           <html lang="en" />
