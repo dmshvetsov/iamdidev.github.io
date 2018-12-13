@@ -9,7 +9,7 @@ const IndexPage = () => (
       <p>A <span className="sdm-accent">web developer</span> from Vladivostok, Russia.</p>
       <p>The <span className="sdm-accent">оrganaizer</span> of the <a className="sdm-multiline-link" href="https://www.instagram.com/explore/tags/rubyvladivostok/?hl=en">Ruby Vladivostok</a> meetup.</p>
       <p>You can find me on the internet as <span className="sdm-accent">@shvetsovdm</span>, writing articles and posting tweets about web development, Ruby, SQL, NoSQL, JavaScript, Node.js, programming in general, learning and self-development.</p>
-      <p>You can find my <Link to="/dmitry-shvetsov-resume"><span className="sdm-accent">resume</span> here</Link>. For detailed CV you can refer to <a className="sdm-multiline-link" href="https://www.linkedin.com/in/shvetsovdm/"><span className="sdm-accent">LinkedIn</span> profile</a> or <a className="sdm-multiline-link" href="https://stackoverflow.com/users/story/6317812">StackOverflow &quot;developer story&quot;</a>.</p>
+      <p>For CV you can refer to <a className="sdm-multiline-link" href="https://www.linkedin.com/in/shvetsovdm/"><span className="sdm-accent">LinkedIn</span> profile</a>.</p>
     </section>
     <section className="sdm-layout__block">
       <h2>My recent <span className="sdm-accent">articles</span></h2>
