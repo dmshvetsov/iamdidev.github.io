@@ -35,10 +35,11 @@ const IndexPage = () => (
     <section className="sdm-layout__block">
       <h2>Find me in <span className="sdm-accent">social networks</span></h2>
       <ul>
-        <li><a rel="external" href="https://twitter.com/shvetsovdm">Twitter</a></li>
         <li><a rel="external" href="https://github.com/shvetsovdm">Github</a></li>
         <li><a rel="external" href="https://stackoverflow.com/users/6317812/shvetsovdm">StackOverflow</a></li>
         <li><a rel="external" href="https://codepen.io/shvetsovdm/">Codepen</a></li>
+        <li><a rel="external" href="https://www.instagram.com/shvetsovdm/">Instagram</a></li>
+        <li><a rel="external" href="https://twitter.com/shvetsovdm">Twitter</a></li>
       </ul>
     </section>
     <footer className="sdm-layout__block sdm-layout__block--footer">
