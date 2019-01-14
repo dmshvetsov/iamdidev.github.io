@@ -6,7 +6,7 @@ const IndexPage = () => (
     <section className="sdm-layout__block">
       <h1>I am <span className="sdm-accent">Dmitry</span></h1>
       <p>A <span className="sdm-accent">web developer</span> from Vladivostok, Russia.</p>
-      <p>The <span className="sdm-accent">оrganaizer</span> of the <a className="sdm-multiline-link" href="https://www.instagram.com/explore/tags/rubyvladivostok/?hl=en">Ruby Vladivostok</a> meetup.</p>
+      <p>The <span className="sdm-accent">оrganaizer</span> of the <a className="sdm-multiline-link" href="https://ruby-vladivostok.github.io/">Ruby Vladivostok</a> meetup.</p>
       <p>You can find me on the internet as <span className="sdm-accent">@shvetsovdm</span>, writing articles and posting tweets about web development, Ruby, SQL, NoSQL, JavaScript, Node.js, programming in general, learning and self-development.</p>
       <p>For CV you can refer to <a className="sdm-multiline-link" href="https://www.linkedin.com/in/shvetsovdm/"><span className="sdm-accent">LinkedIn</span> profile</a>.</p>
     </section>
