@@ -13,19 +13,19 @@ const IndexPage = () => (
     <section className="sdm-layout__block">
       <h2>My recent <span className="sdm-accent">articles</span></h2>
       <article className="sdm-article">
+        <a className="sdm-multiline-link" href="https://medium.com/@shvetsovdm/mastering-postgresql-in-application-development-by-dimitri-fontaine-4378173e01dd">
+          Mastering PostgreSQL in Application Development by Dimitri Fontaine, the book review
+        </a>
+        <div className="sdm-article__date">
+          <time dateTime="2019-01-15 14:10">Jan 15, 2019</time>
+        </div>
+      </article>
+      <article className="sdm-article">
         <a className="sdm-multiline-link" href="https://medium.com/@shvetsovdm/programmers-workout-e5b7310bdb5b">
           Programming workout - the way to become a better programmer through repetitive exercises
         </a>
         <div className="sdm-article__date">
           <time dateTime="2018-09-11 23:00">Sep 11, 2018</time>
-        </div>
-      </article>
-      <article className="sdm-article">
-        <a className="sdm-multiline-link" href="https://medium.com/@shvetsovdm/how-to-use-webpacker-with-npm-instead-of-yarn-a8a764e3a8ab">
-          How to use Rails Webpacker with NPM instead of Yarn
-        </a>
-        <div className="sdm-article__date">
-          <time dateTime="2018-03-27 23:00">Mar 27, 2018</time>
         </div>
       </article>
       <footer>
