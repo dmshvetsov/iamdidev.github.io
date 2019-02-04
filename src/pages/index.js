@@ -43,7 +43,7 @@ const IndexPage = () => (
       </ul>
     </section>
     <footer className="sdm-layout__block sdm-layout__block--footer">
-      <p><small>© Dmitry Shvetsov, 2016-2018</small></p>
+      <p><small>© Dmitry Shvetsov, 2016-2019</small></p>
     </footer>
   </Layout>
 );
