@@ -32,16 +32,24 @@ const IndexPage = () => (
         <p>More my articles <a rel="external" href="https://medium.com/@shvetsovdm/latest">on Medium</a>.</p>
       </footer>
     </section>
-    <section className="sdm-layout__block">
-      <h2>Find me in <span className="sdm-accent">social networks</span></h2>
-      <ul>
-        <li><a rel="external" href="https://github.com/shvetsovdm">Github</a></li>
-        <li><a rel="external" href="https://stackoverflow.com/users/6317812/shvetsovdm">StackOverflow</a></li>
-        <li><a rel="external" href="https://codepen.io/shvetsovdm/">Codepen</a></li>
-        <li><a rel="external" href="https://www.instagram.com/shvetsovdm/">Instagram</a></li>
-        <li><a rel="external" href="https://twitter.com/shvetsovdm">Twitter</a></li>
-      </ul>
-    </section>
+    <div className="sdm-layout__block sdm-layout__block--multisection">
+      <section className="sdm-layout__section">
+        <h2>Find me in <span className="sdm-accent">social networks</span></h2>
+        <ul>
+          <li><a rel="external" href="https://github.com/shvetsovdm">Github</a></li>
+          <li><a rel="external" href="https://stackoverflow.com/users/6317812/shvetsovdm">StackOverflow</a></li>
+          <li><a rel="external" href="https://codepen.io/shvetsovdm/">Codepen</a></li>
+          <li><a rel="external" href="https://www.instagram.com/shvetsovdm/">Instagram</a></li>
+          <li><a rel="external" href="https://twitter.com/shvetsovdm">Twitter</a></li>
+        </ul>
+      </section>
+      <section className="sdm-layout__section">
+        <h2>Goodies:</h2>
+        <ul>
+          <li><a className="sdm-multiline-link" rel="external" href="https://www.youtube.com/playlist?list=PLZ9y9yxqfSW-HUoh2r-WCWU8ewrBI_8nm">Collection of great videos for programmers</a></li>
+        </ul>
+      </section>
+    </div>
     <footer className="sdm-layout__block sdm-layout__block--footer">
       <p><small>© Dmitry Shvetsov, 2016-2019</small></p>
     </footer>
