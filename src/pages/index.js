@@ -28,9 +28,7 @@ const IndexPage = () => (
           <time dateTime="2018-09-11 23:00">Sep 11, 2018</time>
         </div>
       </article>
-      <footer>
-        <p>More my articles <a rel="external" href="https://medium.com/@shvetsovdm/latest">on Medium</a>.</p>
-      </footer>
+      <p>More my articles <a rel="external" href="https://medium.com/@shvetsovdm/latest">on Medium</a>.</p>
     </section>
     <div className="sdm-layout__block sdm-layout__block--multisection">
       <section className="sdm-layout__section">
@@ -50,9 +48,6 @@ const IndexPage = () => (
         </ul>
       </section>
     </div>
-    <footer className="sdm-layout__block sdm-layout__block--footer">
-      <p><small>© Dmitry Shvetsov, 2016-2019</small></p>
-    </footer>
   </Layout>
 );
 

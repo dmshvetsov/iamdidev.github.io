@@ -36,6 +36,9 @@ const Layout = ({ children }) => (
         </Helmet>
         <div className="sdm-layout">
           {children}
+          <footer className="sdm-layout__block sdm-layout__block--footer">
+            <p>© Dmitry Shvetsov, 2016-2019</p>
+          </footer>
         </div>
       </>
     )}
