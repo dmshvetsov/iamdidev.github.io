@@ -13,19 +13,19 @@ const IndexPage = () => (
     <section className="sdm-layout__block">
       <h2>My recent <span className="sdm-accent">articles</span></h2>
       <article className="sdm-article">
+        <a className="sdm-multiline-link" href="https://medium.com/@shvetsovdm/playing-with-ruby-threads-and-queues-52beb6e8613c">
+          Playing with Ruby Threads and Queues
+        </a>
+        <div className="sdm-article__date">
+          <time dateTime="2019-02-05 16:04">Feb 5, 2018</time>
+        </div>
+      </article>
+      <article className="sdm-article">
         <a className="sdm-multiline-link" href="https://medium.com/@shvetsovdm/mastering-postgresql-in-application-development-by-dimitri-fontaine-4378173e01dd">
           Mastering PostgreSQL in Application Development by Dimitri Fontaine, the book review
         </a>
         <div className="sdm-article__date">
           <time dateTime="2019-01-15 14:10">Jan 15, 2019</time>
-        </div>
-      </article>
-      <article className="sdm-article">
-        <a className="sdm-multiline-link" href="https://medium.com/@shvetsovdm/programmers-workout-e5b7310bdb5b">
-          Programming workout - the way to become a better programmer through repetitive exercises
-        </a>
-        <div className="sdm-article__date">
-          <time dateTime="2018-09-11 23:00">Sep 11, 2018</time>
         </div>
       </article>
       <p>More my articles <a rel="external" href="https://medium.com/@shvetsovdm/latest">on Medium</a>.</p>
