@@ -13,6 +13,14 @@ const IndexPage = () => (
     <section className="sdm-layout__block">
       <h2>My recent <span className="sdm-accent">articles</span></h2>
       <article className="sdm-article">
+        <a className="sdm-multiline-link" href="https://medium.com/@shvetsovdm/essential-books-that-every-programmer-should-read-a61565095781">
+          Essential Books That Every Programmer Should Read
+        </a>
+        <div className="sdm-article__date">
+          <time dateTime="2019-02-11 21:00">Feb 11, 2018</time>
+        </div>
+      </article>
+      <article className="sdm-article">
         <a className="sdm-multiline-link" href="https://medium.com/@shvetsovdm/playing-with-ruby-threads-and-queues-52beb6e8613c">
           Playing with Ruby Threads and Queues
         </a>
