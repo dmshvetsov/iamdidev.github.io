@@ -6,9 +6,9 @@ $color-text_normal: #2B2D42
 $color-text_alt: #8D99AE
 $color-text_accent: #EF233C
 $color-link: #D90429
-$font-size: 1.9vw
+$font-size: 1.8vw
 $font-size_small: 0.75rem
-$font-size_sm_screen: 24px
+$font-size_sm_screen: 18px
 $line-height: 1.4rem
 
 *
@@ -27,8 +27,7 @@ p
   margin-bottom: 1rem
 
 body
-  padding-top: 1rem
-  padding-bottom: 1rem
+  padding: 1.5rem 5vw
   background-color: $color-bg
 
 a
@@ -61,11 +60,66 @@ a
   &:active
     background-color: hsla(352.6,86.4%,53.7%, 0.7)
 
-h1, h2, h3
-  font-size: $font-size_sm_screen
-  font-weight: normal
+h1, h2
+  font-weight: 900
+
+h1
+  font-size: 1.8rem
+  line-height: 1.9rem
+  margin-bottom: 2rem
+
+h2
+  font-size: 1.4rem
+  line-height: 1.5rem
+  margin-top: 1.4rem
   margin-bottom: 1rem
 
 .sdm-accent
   color: $color-text_accent
 
+ul, ol
+  list-style: none
+  margin-bottom: 1rem
+
+footer
+  font-size: $font-size_small
+
+.sdm-layout
+  display: flex
+  flex-wrap: wrap
+  justify-content: center
+  &__block
+    flex-basis: 90vw
+    &--footer
+      color: $color-text_alt
+  &__section
+    margin-bottom: 1.5rem
+
+.sdm-article
+  margin-bottom: 1rem
+  &__date
+    margin-top: 0.25rem
+    font-size: $font-size_small
+    color: $color-text_alt
+
+@media screen and (min-width: 701px)
+  body
+    padding: 1.5rem
+
+  .sdm-layout
+    justify-content: space-between
+    &__block
+      flex-basis: 45vw
+      &--footer
+        flex-basis: 45vw
+        align-self: flex-start
+
+@media screen and (min-width: 1025px)
+  .sdm-layout
+    &__block
+      flex-basis: 30vw
+      &--footer
+        flex-basis: 100vw
+      &--multisection
+        display: flex
+        flex-direction: column
