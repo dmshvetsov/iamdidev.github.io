@@ -13,11 +13,19 @@ const IndexPage = () => (
     <section className="sdm-layout__block">
       <h2>My recent <span className="sdm-accent">articles</span></h2>
       <article className="sdm-article">
+        <a className="sdm-multiline-link" href="https://medium.com/@shvetsovdm/99-bottles-of-object-oriented-programming-4c54480303e7">
+          99 Bottles of Object Oriented Programming
+        </a>
+        <div className="sdm-article__date">
+          <time dateTime="2019-03-11 21:00">Mar 11, 2019</time>
+        </div>
+      </article>
+      <article className="sdm-article">
         <a className="sdm-multiline-link" href="https://medium.com/@shvetsovdm/essential-books-that-every-programmer-should-read-a61565095781">
           Essential Books That Every Programmer Should Read
         </a>
         <div className="sdm-article__date">
-          <time dateTime="2019-02-11 21:00">Feb 11, 2018</time>
+          <time dateTime="2019-02-11 21:00">Feb 11, 2019</time>
         </div>
       </article>
       <article className="sdm-article">
@@ -25,15 +33,7 @@ const IndexPage = () => (
           Playing with Ruby Threads and Queues
         </a>
         <div className="sdm-article__date">
-          <time dateTime="2019-02-05 16:04">Feb 5, 2018</time>
-        </div>
-      </article>
-      <article className="sdm-article">
-        <a className="sdm-multiline-link" href="https://medium.com/@shvetsovdm/mastering-postgresql-in-application-development-by-dimitri-fontaine-4378173e01dd">
-          Mastering PostgreSQL in Application Development by Dimitri Fontaine, the book review
-        </a>
-        <div className="sdm-article__date">
-          <time dateTime="2019-01-15 14:10">Jan 15, 2019</time>
+          <time dateTime="2019-02-05 16:04">Feb 5, 2019</time>
         </div>
       </article>
       <p>More my articles <a rel="external" href="https://medium.com/@shvetsovdm/latest">on Medium</a>.</p>
