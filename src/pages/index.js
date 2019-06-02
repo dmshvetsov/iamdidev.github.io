@@ -1,5 +1,5 @@
 import React from 'react';
-import Layout from '../components/layout';
+import Layout from '../components/Layout';
 
 import '../components/landing.sass';
 
@@ -7,9 +7,9 @@ const IndexPage = () => (
   <Layout>
     <section className="sdm-layout__block">
       <h1 className="sdm-landing__title">I am <span className="sdm-accent">Di</span></h1>
-      <p>A <span className="sdm-accent">web developer</span> from Vladivostok, Russia.</p>
+      <p>I&apos;m a <span className="sdm-accent">web developer</span> from Vladivostok, Russia.</p>
       <p>The <span className="sdm-accent">оrganaizer</span> of the <a className="sdm-multiline-link" href="https://ruby-vladivostok.github.io/">Ruby Vladivostok</a> meetup.</p>
-      <p>You can find me on the internet as <span className="sdm-accent">@shvetsovdm</span>, writing articles and posting tweets about web development, Ruby, SQL, NoSQL, JavaScript, Node.js, programming in general, learning and self-development.</p>
+      <p>You can find me on the internet as <span className="sdm-accent">@iamdidev</span>, writing articles and posting tweets about web development, Ruby, SQL, NoSQL, JavaScript, Node.js, programming in general, learning and self-development.</p>
     </section>
     <section className="sdm-layout__block">
       <h2 className="sdm-landing__title">My recent <span className="sdm-accent">articles</span></h2>
