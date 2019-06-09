@@ -51,7 +51,12 @@ Blog.propTypes = {
 
 export const pageQuery = graphql`
   query BlogPosts {
-    allMarkdownRemark {
+    allMarkdownRemark(
+      sort: {
+        fields: [frontmatter___date]
+        order: DESC
+      }
+    ) {
       edges {
         node {
           frontmatter {
