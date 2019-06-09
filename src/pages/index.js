@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'gatsby';
 import Layout from '../components/Layout';
 
 import '../components/landing.sass';
@@ -14,15 +15,7 @@ const IndexPage = () => (
     <section className="sdm-layout__block">
       <h2 className="sdm-landing__title">My recent <span className="sdm-accent">articles</span></h2>
       <article className="sdm-article">
-        <a className="sdm-multiline-link" href="https://medium.com/@shvetsovdm/99-bottles-of-object-oriented-programming-4c54480303e7">
-          99 Bottles of Object Oriented Programming
-        </a>
-        <div className="sdm-article__date">
-          <time dateTime="2019-03-11 21:00">Mar 11, 2019</time>
-        </div>
-      </article>
-      <article className="sdm-article">
-        <a className="sdm-multiline-link" href="https://medium.com/@shvetsovdm/essential-books-that-every-programmer-should-read-a61565095781">
+        <a className="sdm-multiline-link" href="/blog/tech/2019-02-11-esential-books-that-every-programmer-should-read/">
           Essential Books That Every Programmer Should Read
         </a>
         <div className="sdm-article__date">
@@ -30,14 +23,14 @@ const IndexPage = () => (
         </div>
       </article>
       <article className="sdm-article">
-        <a className="sdm-multiline-link" href="https://medium.com/@shvetsovdm/playing-with-ruby-threads-and-queues-52beb6e8613c">
+        <a className="sdm-multiline-link" href="/blog/tech/2019-02-05-playing-with-ruby-threads-and-queues/">
           Playing with Ruby Threads and Queues
         </a>
         <div className="sdm-article__date">
           <time dateTime="2019-02-05 16:04">Feb 5, 2019</time>
         </div>
       </article>
-      <p>More my articles <a rel="external" href="https://medium.com/@shvetsovdm/latest">on Medium</a>.</p>
+      <p><Link to="/blog">View all articles</Link>.</p>
     </section>
     <div className="sdm-layout__block sdm-layout__block--multisection">
       <section className="sdm-layout__section">
