@@ -1,3 +1,51 @@
-.sdm-blog-content
-  font-size: 20px
-  max-width: 750px
+@import './variables'
+
+.sdm-layout
+  &__block
+    margin-bottom: 1.5rem
+
+.sdm-blog__description
+  font-weight: 400
+
+.sdm-blog__content
+  font-size: 1rem
+
+  p
+    margin-bottom: 1rem
+
+  ul
+    list-style: square
+    margin-left: 1rem
+    margin-bottom: 1rem
+
+  hr
+    border: none
+    text-align: center
+    padding: 1rem 0
+  hr:after
+    content: ". . ."
+    display: inline-block
+    position: relative
+    top: -0.75rem
+    font-size: 1.5rem
+    background: transparent
+
+  pre
+    width: 100vw
+    font-size: .8rem
+    margin-left: calc(#{$base-padding} / -2)
+    margin-right: calc(#{$base-padding} / -2)
+    padding: calc(#{$base-padding} / 2)
+    margin-bottom: 1rem
+
+// @media screen and (min-width: 701px)
+@media screen and (min-width: 1025px)
+  .sdm-blog__content
+    font-size: 1rem
+    max-width: 750px
+
+  .sdm-blog__content
+    pre
+      margin-left: -$base-padding
+      margin-right: -$base-padding
+      padding: calc(#{$base-padding} / 2) $base-padding

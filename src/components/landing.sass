@@ -1,5 +1,43 @@
+@import './variables'
+
+.sdm-layout
+  display: flex
+  flex-wrap: wrap
+  justify-content: center
+  &__block
+    flex-basis: 90vw
+    &--footer
+      color: $color-text_alt
+  &__section
+    margin-bottom: 1.5rem
+
+.sdm-article
+  margin-bottom: 1rem
+  &__date
+    margin-top: 0.25rem
+    font-size: $font-size_small
+    color: $color-text_alt
+
 @media screen and (min-width: 701px)
   .sdm-landing
     &__title
       font-size: 1.5rem
       margin: 0 0 1rem 0
+
+  .sdm-layout
+    justify-content: space-between
+    &__block
+      flex-basis: 45vw
+      &--footer
+        flex-basis: 45vw
+        align-self: flex-start
+
+@media screen and (min-width: 1025px)
+  .sdm-layout
+    &__block
+      flex-basis: 30vw
+      &--footer
+        flex-basis: 100vw
+      &--multisection
+        display: flex
+        flex-direction: column

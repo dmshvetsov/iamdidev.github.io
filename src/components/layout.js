@@ -4,25 +4,26 @@ import Helmet from 'react-helmet';
 import { StaticQuery, graphql } from 'gatsby';
 
 import './base.sass';
-import './landing.sass';
-import './blog.sass';
+
+const QUERY = graphql`
+  query SiteTitleQuery {
+    site {
+      siteMetadata {
+        title,
+        description,
+        host,
+        gravatar
+      }
+    }
+  }
+`;
 
 const Layout = ({ children }) => (
   <StaticQuery
-    query={graphql`
-      query SiteTitleQuery {
-        site {
-          siteMetadata {
-            title,
-            description,
-            host,
-            gravatar
-          }
-        }
-      }
-    `}
+    query={QUERY}
     render={data => (
       <>
+        {/* Head manipulations */}
         <Helmet
           title={data.site.siteMetadata.title}
           meta={[
@@ -37,7 +38,9 @@ const Layout = ({ children }) => (
           <html lang="en" />
         </Helmet>
         <div className="sdm-layout">
+          {/* Page content */}
           {children}
+          {/* Page footer */}
           <footer className="sdm-layout__block sdm-layout__block--footer">
             <p>© Dmitry Shvetsov, 2016-2019</p>
           </footer>

@@ -1,15 +1,4 @@
-// color palette https://coolors.co/2b2d42-8d99ae-edf2f4-ef233c-d90429
-
-$color-bg: #F9FBFB
-$color-bg_acent: #EDF2F4
-$color-text_normal: #2B2D42
-$color-text_alt: #8D99AE
-$color-text_accent: #EF233C
-$color-link: #D90429
-$font-size: 1.8vw
-$font-size_small: 0.75rem
-$font-size_sm_screen: 18px
-$line-height: 1.4rem
+@import './variables'
 
 *
   box-sizing: border-box
@@ -27,7 +16,7 @@ p
   margin-bottom: 1rem
 
 body
-  padding: 1.5rem 5vw
+  padding: $base-padding calc(#{$base-padding} / 2)
   background-color: $color-bg
 
 a
@@ -84,45 +73,10 @@ ul, ol
 footer
   font-size: $font-size_small
 
-.sdm-layout
-  display: flex
-  flex-wrap: wrap
-  justify-content: center
-  &__block
-    flex-basis: 90vw
-    &--footer
-      color: $color-text_alt
-  &__section
-    margin-bottom: 1.5rem
-
-.sdm-article
-  margin-bottom: 1rem
-  &__date
-    margin-top: 0.25rem
-    font-size: $font-size_small
-    color: $color-text_alt
-
 @media screen and (min-width: 701px)
   body
-    padding: 1.5rem
-
-  .sdm-layout
-    justify-content: space-between
-    &__block
-      flex-basis: 45vw
-      &--footer
-        flex-basis: 45vw
-        align-self: flex-start
+    padding: $base-padding
 
 @media screen and (min-width: 1025px)
   body, html
     font-size: $font-size
-
-  .sdm-layout
-    &__block
-      flex-basis: 30vw
-      &--footer
-        flex-basis: 100vw
-      &--multisection
-        display: flex
-        flex-direction: column
