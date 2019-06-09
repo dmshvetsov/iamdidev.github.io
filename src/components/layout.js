@@ -1,7 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import Helmet from 'react-helmet';
-import { StaticQuery, graphql } from 'gatsby';
+import { Location } from '@reach/router';
+import { Link, StaticQuery, graphql } from 'gatsby';
 
 import './base.sass';
 
@@ -17,6 +18,8 @@ const QUERY = graphql`
     }
   }
 `;
+
+const match = (route, location) => RegExp(route).test(location);
 
 const Layout = ({ children }) => (
   <StaticQuery
@@ -37,6 +40,18 @@ const Layout = ({ children }) => (
         >
           <html lang="en" />
         </Helmet>
+        {/* Navigation */}
+        <Location>
+          {({ location }) => {
+            if (location.pathname === '/') return null;
+            return (
+              <nav className="sdm-nav">
+                {match('^\/blog\/?$', location.pathname) && <Link to="/">Main page</Link>}
+                {match('^\/blog\/.+$', location.pathname) && <Link to="/blog">All articles</Link>}
+              </nav>
+            );
+          }}
+        </Location>
         <div className="sdm-layout">
           {/* Page content */}
           {children}
