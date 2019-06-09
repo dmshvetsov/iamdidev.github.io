@@ -1,8 +1,8 @@
 {
-  "name": "shvetsovdm.github.io",
+  "name": "iamdi.dev",
   "description": "Personal web site",
   "version": "4.0.1",
-  "author": "Dmitry Shvetsov <shvetsovdm@gmail.com>",
+  "author": "Dmitry Shvetsov <helloiamdi@gmail.com>",
   "dependencies": {
     "gatsby": "^2.0.53",
     "gatsby-image": "^2.0.20",
@@ -28,7 +28,7 @@
     "type": "git",
     "url": "https://github.com/gatsbyjs/gatsby-starter-default"
   },
-  "homepage": "https://github.com/shvetsovdm/shvetsovdm.github.io",
+  "homepage": "https://github.com/iamdidev/iamdidev.github.io",
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",
