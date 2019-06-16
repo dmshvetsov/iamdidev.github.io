@@ -4,7 +4,9 @@ date: 2019-02-11
 description: The books recommendations from the Bozhidar talk, lists by Uncle Bob, and Kent Beck, books from blog posts by Jeff Atwood and DHH.
 ---
 
-> Never ask advice of someone with whom you wouldn’t want to trade places — Darren Hardy
+> Never ask advice of someone with whom you wouldn’t want to trade places
+>
+> — Darren Hardy
 
 The idea to collect a list of books that knowledgeable, experienced and well-known programmers recommends to read comes to me from [The long Journey to Ruby Mastery](https://www.youtube.com/watch?v=zqq6_zu8x6o&feature=youtu.be) conference talk by Bozhidar Batsov.
 
@@ -14,20 +16,20 @@ Here I share what I have found so far: the books recommendations from the Bozhid
 
 **Bozhidar Batsov** VP Engineering at Toptal and open-source hacker in his talk named 15 books to reach mastery as a programmer independently of programming language:
 
-* Inside the Machine how computers work
-* CODE processors and stuff
-* Concrete Mathematics: A Foundation for Computer Science
-* Structure and Interpretation of Computer Programs proper introduction into programming
-* How to Design Programs: An Introduction to Programming and Computing
+* [Inside the Machine](https://amzn.to/2IJKswJ) how computers work
+* [CODE](https://amzn.to/2KjIKp1) processors and stuff
+* [Concrete Mathematics: A Foundation for Computer Science](https://amzn.to/2IOSep2)
+* [Structure and Interpretation of Computer Programs](https://amzn.to/2MPVNRm) proper introduction into programming
+* [How to Design Programs: An Introduction to Programming and Computing](https://amzn.to/31AShNR)
 
 Even if you have 20 years of experience in programming you can learn a lot from the books above thinks Bozhidar.
 
 
-* The Algorithm Design Manual and Introduction to Algorithms for a good understanding of algorithms
-* good programmers should understand how compilers works Compilers: Principles, Techniques, and Tools
-* every programmer should know C Programming Language
-* Advanced Programming in the UNIX Environment
-* Unix Network Programming volume 1 and 2
+* [The Algorithm Design Manual](https://amzn.to/31A9tTH) and [Introduction to Algorithms](https://amzn.to/2ILXE4k) for a good understanding of algorithms
+* good programmers should understand how compilers works [Compilers: Principles, Techniques, and Tools](https://amzn.to/2Rmt8BN)
+* every programmer should know [C Programming Language](https://amzn.to/2MQddgq)
+* [Advanced Programming in the UNIX Environment](https://amzn.to/2KPZBPE)
+* Unix Network Programming [volume 1](https://amzn.to/2WLiWUC) and [volume 2](https://amzn.to/2Rjs69V)
 
 > This a essential minimum for a good developer.
 >
@@ -35,78 +37,78 @@ Even if you have 20 years of experience in programming you can learn a lot from 
 
 For programmers working with object-oriented languages Bozhidar recommends:
 
-* Growing Object-Oriented Software, Guided by Tests
-* Domain-Driven Design
+* [Growing Object-Oriented Software, Guided by Tests](https://amzn.to/2IJAkE7)
+* [Domain-Driven Design](https://amzn.to/2RigUKn)
 
 The last book in Bozhidar's list is The Elements of Programming Style.
 
 ---
 
-I asked Robert C. Martin, aka **Uncle Bob Martin**, software engineer, [author](https://www.amazon.com/Robert-C.-Martin/e/B000APG87E/ref=as_li_ss_tl?qid=1549506215&sr=1-2-ent&linkCode=sl2&tag=sdm05-20&linkId=717262290b5f8817e7c157f421fdc1a5), [instructor](https://sites.google.com/site/unclebobconsultingllc/home/training), co-author of Agile Manifesto, for books recommendations. Here is his list:
+I asked Robert C. Martin, aka **Uncle Bob Martin**, software engineer, [author](https://amzn.to/2RiXs09), [instructor](https://sites.google.com/site/unclebobconsultingllc/home/training), co-author of Agile Manifesto, for books recommendations. Here is his list:
 
-* Design Patterns
-* Structure and Interpretation of Computer Programs
-* Fundamental Algorithms Vol.1 of The Art of Computer Programming series
-* The Annotated Turing
-* Refactoring
-* Extreme Programming Explained
-* Redshirts
-* The “Bobiverse” trilogy
+* [Design Patterns](https://amzn.to/2MRhW1F)
+* [Structure and Interpretation of Computer Programs](https://amzn.to/2KQ64KF) (recommended for the second time)
+* [Fundamental Algorithms Vol.1 of The Art of Computer Programming series](https://amzn.to/2KQ0mbs)
+* [The Annotated Turing](https://amzn.to/2RmtKaz)
+* [Refactoring](https://amzn.to/2IJNrW8)
+* [Extreme Programming Explained](https://amzn.to/2RkQuYD)
+* [Redshirts](https://amzn.to/2MSfUyh)
+* The “Bobiverse” trilogy, [volume 1](https://amzn.to/2RgqeP8), [volume 2](https://amzn.to/2KTLOHU), and [volume 3](https://amzn.to/2XeoJq5)
 
 ---
 
-I asked speaker and author of the [Extreme Programming book series](https://www.amazon.com/dp/0321278658/ref=as_li_ss_tl?ie=UTF8&linkCode=sl1&tag=sdm05-20&linkId=7468221f85846f4c3d35b8086035ef05) **Kent Beck**, for books recommendations:
+I asked speaker and author of the [Extreme Programming book series](https://amzn.to/2FcAkf9) **Kent Beck**, for books recommendations:
 
-* On Growth and Form
-* The Timeless Way of Building
-* Nature’s Patterns series: Shapes, Flow, and Branches
+* [On Growth and Form](https://amzn.to/31Lsm6m)
+* [The Timeless Way of Building](https://amzn.to/2IJwxqx)
+* Nature’s Patterns series: [Shapes](https://amzn.to/31DP8Nd), [Flow](https://amzn.to/2IlSH3b), and [Branches](https://amzn.to/31AZzkP)
 
 ---
 
 **Jeff Atwood** author of [Coding Horror](https://blog.codinghorror.com/) blog and co-founder of Stack Overflow and Discourse, share his list of Recommended Reading for Developers:
 
-* Code complete 2
-* The Mythical Man-Month
-* Don’t Make Me Think, Revisited: A Common Sense Approach to Web Usability
-* Rapid Development
-* Peopleware
-* The Design of Everyday Things
-* About Face: The Essentials of Interaction Design
-* The Inmates Are Running the Asylum
-* Programming Pearls
-* The Pragmatic Programmer: From Journeyman to Master
-* Designing Web Usability
-* Regular Expressions Cookbook
-* The Visual Display of Quantitative Information
-* Visual Explanations: Images and Quantities, Evidence and Narrative
-* Envisioning Information
-* Beautiful Evidence
+* [Code complete 2](https://amzn.to/2RfxN8w)
+* [The Mythical Man-Month](https://amzn.to/2Xglpe8)
+* [Don’t Make Me Think, Revisited: A Common Sense Approach to Web Usability](https://amzn.to/2RhNYm1)
+* [Rapid Development](https://amzn.to/2IJNqBn)
+* [Peopleware](https://amzn.to/2FcSqxv)
+* [The Design of Everyday Things](https://amzn.to/2MNR821)
+* [About Face: The Essentials of Interaction Design](https://amzn.to/2IF86dC)
+* [The Inmates Are Running the Asylum](https://amzn.to/2RjtysT)
+* [Programming Pearls](https://amzn.to/2KQ88SM)
+* [The Pragmatic Programmer: From Journeyman to Master](https://amzn.to/2IJNvoF)
+* [Designing Web Usability](https://amzn.to/2RiZXzq)
+* [Regular Expressions Cookbook](https://amzn.to/2IJP6uQ)
+* [The Visual Display of Quantitative Information](https://amzn.to/2IJNDo9)
+* [Visual Explanations: Images and Quantities, Evidence and Narrative](https://amzn.to/2KSoNFq)
+* [Envisioning Information](https://amzn.to/2RiGK12)
+* [Beautiful Evidence](https://amzn.to/2IKMGvL)
 
 Some of them Jeff mentioned in the comments on the page:
 
-* Waltzing With Bears: Managing Risk on Software Projects
-* Dynamics of Software Development
+* [Waltzing With Bears: Managing Risk on Software Projects](https://amzn.to/2RiH3sI)
+* [Dynamics of Software Development](https://amzn.to/2MOQD85)
 
 Jeff added links to Amazon as well and put his opinion under every book in [his list](https://blog.codinghorror.com/recommended-reading-for-developers/).
 
 ---
 
-David Heinemeier Hansson, aka **DHH**, creator of Ruby on Rails, founder and CTO at Basecamp, [author](https://www.amazon.com/David-Heinemeier-Hansson/e/B001JS19Y8/ref=as_li_ss_tl?qid=1549503703&sr=1-2-ent&linkCode=sl2&tag=sdm05-20&linkId=baa49776df556d6e2497fb37e04685e6), and public speaker share the 5 books that meant most for him:
+David Heinemeier Hansson, aka **DHH**, creator of Ruby on Rails, founder and CTO at Basecamp, [author](https://amzn.to/2Rhr3Hn), and public speaker share the 5 books that meant most for him:
 
-* Smalltalk Best Practice Patterns
-* Refactoring: Improving the Design of Existing Code
-* Patterns of Enterprise Application Architecture
-* Domain-Driven Design: Tackling Complexity in the Heart of Software
-* Are Your Lights On?: How to Figure Out What the Problem Really Is
-* The Elements of Style, Fourth Edition
-* On Writing Well: The Classic Guide to Writing Nonfiction
+* [Smalltalk Best Practice Patterns](https://amzn.to/2RkRGv5)
+* [Refactoring: Improving the Design of Existing Code](https://amzn.to/2Ri7QoU) (recommended for the second time)
+* [Patterns of Enterprise Application Architecture](https://amzn.to/2RoFCck)
+* [Domain-Driven Design: Tackling Complexity in the Heart of Software](https://amzn.to/31AIlnE) (recommended for the second time)
+* [Are Your Lights On?: How to Figure Out What the Problem Really Is](https://amzn.to/2RrO3Ul)
+* [The Elements of Style, Fourth Edition](https://amzn.to/2IF8qsQ)
+* [On Writing Well: The Classic Guide to Writing Nonfiction](https://amzn.to/2KjKjmT)
 
 David comments on each book in [his post](https://signalvnoise.com/posts/3375-the-five-programming-books-that-meant-most-to-me), and I recommend reading it.
 
 ## Call to action
 
-What your list of “Essential Books That Every Programmer Should Read”? [Respond with tweet](https://twitter.com/iamdidev/status/1094709906593206273?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1094709906593206273&ref_url=https%3A%2F%2Fmedium.com%2Fmedia%2F0a7f3503640e215db2e1590328021324%3FpostId%3Da61565095781)
+What your list of “Essential Books That Every Programmer Should Read”? [Respond with tweet](https://twitter.com/iamdidev/status/1094709906593206273)
 
-Which programmer would you like to ask for advice about which book to read next? [Respond with tweet](https://twitter.com/iamdidev/status/1094709980740108288?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1094709980740108288&ref_url=https%3A%2F%2Fmedium.com%2Fmedia%2F28cb4642ca4f395d83205ed89be1d657%3FpostId%3Da61565095781)
+Which programmer would you like to ask for advice about which book to read next? [Respond with tweet](https://twitter.com/iamdidev/status/1094709980740108288)
 
 [Share the article on twitter](https://twitter.com/iamdidev/status/1094916278379339777?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1094916278379339777&ref_url=https%3A%2F%2Fmedium.com%2Fmedia%2F55a38d10b24383bc3e0ff7b759d1a43d%3FpostId%3Da61565095781) so that everyone else also knows about it.
