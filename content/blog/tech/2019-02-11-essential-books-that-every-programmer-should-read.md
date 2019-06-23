@@ -1,7 +1,7 @@
 ---
 title: Essential Books That Every Programmer Should Read
 date: 2019-02-11
-description: The books recommendations from the Bozhidar talk, lists by Uncle Bob, and Kent Beck, books from blog posts by Jeff Atwood and DHH.
+description: The books recommendations from the Bozhidar's talk, lists by Uncle Bob, and Kent Beck, books from blog posts by Jeff Atwood and DHH.
 ---
 
 > Never ask advice of someone with whom you wouldn’t want to trade places
@@ -10,7 +10,7 @@ description: The books recommendations from the Bozhidar talk, lists by Uncle Bo
 
 The idea to collect a list of books that knowledgeable, experienced and well-known programmers recommends to read comes to me from [The long Journey to Ruby Mastery](https://www.youtube.com/watch?v=zqq6_zu8x6o&feature=youtu.be) conference talk by Bozhidar Batsov.
 
-Here I share what I have found so far: the books recommendations from the Bozhidar talk, lists by Uncle Bob, and Kent Beck, books from blog posts by Jeff Atwood and DHH.
+Here I share what I have found so far: the books recommendations from the Bozhidar's talk, lists by Uncle Bob, and Kent Beck, books from blog posts by Jeff Atwood and DHH.
 
 ---
 
