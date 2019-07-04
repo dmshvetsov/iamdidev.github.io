@@ -15,7 +15,7 @@ const IndexPage = () => (
     <section className="sdm-layout__block">
       <h2 className="sdm-landing__title">My recent <span className="sdm-accent">articles</span></h2>
       <article className="sdm-article">
-        <a className="sdm-multiline-link" href="/blog/tech/2019-02-11-esential-books-that-every-programmer-should-read/">
+        <a className="sdm-multiline-link" href="/blog/tech/2019-02-11-essential-books-that-every-programmer-should-read/">
           Essential Books That Every Programmer Should Read
         </a>
         <div className="sdm-article__date">
