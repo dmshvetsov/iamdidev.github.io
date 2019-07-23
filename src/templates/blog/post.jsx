@@ -19,7 +19,6 @@ const Post = ({ data }) => {
       <article className="sdm-layout__block">
         <h1>{title}</h1>
         <h2 className="sdm-blog__description">{description}</h2>
-        <time dateTime="2017-01-30"></time>
         <div className="sdm-blog__content" dangerouslySetInnerHTML={{ __html: html }} />
       </article>
       <RelatedList items={related} />
