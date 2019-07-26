@@ -3,7 +3,7 @@ title: An alternative to Rails `before_action`
 date: 2017-01-30
 description: Rails `before_action` is a good tool but often used incorrectly. In this article, I will show what is wrong and my remedy for `before_action` abuse.
 related:
-  - 
+  -
     title: "Article: Don't use before action to load data"
     url: http://craftingruby.com/posts/2015/05/31/dont-use-before-action-to-load-data.html
   -

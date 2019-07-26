@@ -1,7 +1,11 @@
 ---
 title: 99 Bottles of Object Oriented Programming
-description: Book review of “99 Bottle of OOP” by Sandi Metz and Katrina Owen
 date: 2019-03-11
+description: Book review of “99 Bottle of OOP” by Sandi Metz and Katrina Owen
+related:
+  -
+    title: "Essential Books That Every Programmer Should Read"
+    url: "/blog/tech/2019-02-11-essential-books-that-every-programmer-should-read/"
 ---
 
 [The book](https://www.sandimetz.com/99bottles).
