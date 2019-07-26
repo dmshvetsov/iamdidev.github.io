@@ -1,5 +1,5 @@
 ---
-title: 99 Bottles of Object Oriented Programming
+title: 99 Bottles of Object-Oriented Programming
 date: 2019-03-11
 description: Book review of “99 Bottle of OOP” by Sandi Metz and Katrina Owen
 related:
